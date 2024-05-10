@@ -1,0 +1,135 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* background-color: rgb(179, 178, 178); */
+}
+header {
+    background-color: #ffffff;
+    color: rgb(2, 2, 2);
+    padding: 10px 20px;
+    text-align: center;
+
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+
+.portfolio-item {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+aside{
+   
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+h3{
+    text-align: center;
+}
+.conteudo{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Usando flexbox */
+    flex-wrap: wrap;
+    justify-content: center; /* Centralizando horizontalmente */
+    align-items: center; 
+
+    
+}
+
+nav {
+    display: flex;
+    
+   
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+
+
+    
+}
+
+
+button{
+background-color: #ffffff; /* Cor de fundo branca */
+    color: #000000; /* Cor do texto preto */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid #000000; /* Borda sólida preta */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+    width: 150px; /* Largura do botão */
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-grow: 1; /* Faz com que os botões ocupem o mesmo espaço disponível */
+    margin: 0 10px;
+    
+   
+}
+
+.botao:hover {
+    background-color: #000000; /* Cor de fundo preta ao passar o mouse */
+    color: #ffffff; /* Cor do texto branca ao passar o mouse */
+    text-decoration: none;
+    
+}
+
+.perfil{
+    border-radius: 30%;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+.ex{
+        border: 3px solid #000; /* Adiciona uma borda sólida de 1px de largura */
+        padding: 20px; /* Adiciona espaço interno */
+        margin-bottom: 10px; /* Adiciona espaço entre os itens */
+        border-radius: 15%;
+    
+}
